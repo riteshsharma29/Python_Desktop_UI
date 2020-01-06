@@ -1,9 +1,6 @@
 #!/usr/bin/python
 
 import pandas as pd
-import sys
-import os
-import sys
 import PySimpleGUI as sg
 import subprocess
 import pyautogui
