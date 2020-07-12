@@ -10,5 +10,6 @@ Install PySimpleGUI using commmand : pip install PySimpleGUI <br>
 4) regex_ui.py - Regex Test tool <br>
 5) Language Translation Tool UI Tool : multilanguage_ui.py <br>
 6) NLP_ui.py : NLTK UI app <br>
+7) Summation example <br>
 
 
