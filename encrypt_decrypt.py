@@ -4,6 +4,9 @@ import PySimpleGUI as sg
 import re
 import os
 
+'''
+Change c:\python39\python.exe below to your python path
+'''
 def crypto(pattern,method_name):
     try:
         passwd_str = pattern.lstrip().rstrip().strip()
