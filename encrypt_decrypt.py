@@ -35,7 +35,6 @@ while True:
     e, v = window.read()
     if e is None or e == 'Exit':
         break
-    #  we pass raw string pattern with r'{}'.format(v['Pattern'])
     elif e == 'ENCRYPT PASSWORD' and v['Input'] != 0:
         crypto(v['Input'],"ENCRYPT PASSWORD")
     elif e == 'DECRYPT PASSWORD' and v['Input'] != 0:
