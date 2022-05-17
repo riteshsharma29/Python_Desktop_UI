@@ -11,16 +11,6 @@ def Match_regex(pattern, text):
         regex = re.compile(pattern)
         match_iter = re.finditer(pattern, text)
         print(match)
-    #     for match in match_iter:
-    #         print (match.group())
-    #         print('Match Found. Text: {0} Index: {1} Length: {2}'.format(text, match.start(),len(match.group(0))))
-    #         for i in range(0,len(match.group())):
-    #             gn = i + 1
-    #             group_name = None
-    #             regex_group_index = dict((v,k) for k,v in regex.groupindex.items())
-    #             if gn in regex_group_index:
-    #                 group_name = regex_group_index[gn]
-    #             print('  Group:{0}, Name:{1}, Value: {2}'.format(gn, group_name, match.group(gn)))
     except Exception as e:
         print(e)
 
