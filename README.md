@@ -14,4 +14,5 @@ Install PySimpleGUI using commmand : pip install PySimpleGUI <br>
 8) encrypt_decrypt.py <br>
 9) Linux_Server_File_Extractor.py <br>
 10) Language_Translator_Text2speech_UI.py <br>
+11) Extract_Log_Error.py <br>
 
