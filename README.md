@@ -11,8 +11,9 @@ Install PySimpleGUI using commmand : pip install PySimpleGUI <br>
 5) Language Translation Tool UI Tool : multilanguage_ui.py <br>
 6) NLP_ui.py : NLTK UI app <br>
 7) Summation example <br>
-8) encrypt_decrypt.py <br>
-9) Linux_Server_File_Extractor.py <br>
+8) Password Encryption/Decryption - encrypt_decrypt.py <br>
+9) Linux Server File extractor - Linux_Server_File_Extractor.py <br>
 10) Language_Translator_Text2speech_UI.py <br>
-11) Extract_Log_Error.py <br>
+11) Extract Log - Extract_Log_Error.py <br>
+12) NER - Named Entity Recognition Interface <br>
 
