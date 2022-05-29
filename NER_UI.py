@@ -2,7 +2,8 @@ import PySimpleGUI as sg
 import spacy
 from spacy import displacy
 from tkhtmlview import HTMLLabel
-
+import webbrowser
+import codecs
 
 """
 Install all dependencies using pip
@@ -27,6 +28,8 @@ def Ner_func_2(lang_core,raw_text):
         layout = [[]]
         new_window = sg.Window('NER VISUALIZATION', layout, finalize=True)
         my_label = HTMLLabel(new_window.TKroot, html=svg)
+        f = codecs.open("output.html","w",encoding="utf-8")
+        f.write(svg)
         for word in text1.ents:
             print(word.text, word.label_)
         my_label.pack()
@@ -88,18 +91,25 @@ while True:
     # calling respective NER language function
     elif v["-eng-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-dut-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-fin-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-fre-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-ger-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-esp-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif v["-swe-"] == True and e == 'RUN NER' and len(v['Input']) > 0:
         Ner_func_2("en_core_web_sm",v['Input'])
+        webbrowser.open_new_tab("output.html")
     elif e == 'CLEAR INPUT':
         window['Input'].Update('')
     elif e == 'CLEAR OUTPUT':
