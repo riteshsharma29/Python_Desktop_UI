@@ -75,7 +75,7 @@ layout = [
         sg.Multiline(size=(59, 10),font=("Helvetica", 15), key='Input')
     ],
     [
-        sg.Text('TRANSLATED TEXT                    ', size=(20, 1)),
+        sg.Text('NER OUTPUT                          ', size=(20, 1)),
         sg.Output(size=(59, 10), font=("Helvetica", 15),key='Output')],
 ]
 
