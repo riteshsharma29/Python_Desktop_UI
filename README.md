@@ -16,4 +16,4 @@ Install PySimpleGUI using commmand : pip install PySimpleGUI <br>
 10) Language_Translator_Text2speech_UI.py <br>
 11) Extract Log - Extract_Log_Error.py <br>
 12) NER - Named Entity Recognition Interface <br>
-
+13) CRUD_SQLITE3_GUI - This particular GUI is for demonstrating SQLITE3 CRUD operation through a user interface. Front-End is created using PysimpleGUI module. The employee.py file holds the code for handling Back-End operation and also the Front-End design. The create_db.py file holds the code to design and create empty SQLITE3 database. Run create_db.py to create empty database if you wish to. With just subtle variations in the source code one can easily create a CRUD interface.
